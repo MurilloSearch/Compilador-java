@@ -1,0 +1,35 @@
+inicio void
+ main ()
+{       
+    
+    int x;
+    int y;
+    int z;
+
+    int w;
+    
+    x = 10;
+    y = 0;
+
+    if(x>10){
+        x = 20;
+    }else{
+        cout<<x;
+    }
+
+    while(y<10){
+
+        y = y + 5;
+
+    }
+    cin>>z;
+
+    cout<<x;
+    cout<<y;
+    
+    z=z+x+y;
+
+    cout<<z;
+
+    return;
+}
